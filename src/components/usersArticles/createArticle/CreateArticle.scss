@@ -1,0 +1,44 @@
+.create-article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    &__inputs{
+        gap: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        &__field{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                margin-left: 10px;
+                font-size: 16px;
+                border: 1px solid rgb(133, 63, 255);
+                border-radius: 10px;
+                padding: 10px;
+            }
+        }
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 24px;
+        color: black;
+    }
+    &__create-button{
+        border-radius: 10px;
+        padding: 15px;
+        background: rgb(15, 153, 15);
+        transition: 0.5s all;
+        border: none;
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        &:hover{
+            background: rgb(36, 157, 36);
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.news-articles{
+    width: 100%;
+    &__cards{
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+     &__load-more{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        button{
+            padding: 20px;
+            font-size: 21px;
+            font-weight: bold;
+            border-radius: 10px;
+            color: white;
+            background: rgb(153, 0, 255);
+            border: none;
+            transition: 0.5s all;
+            cursor: pointer;
+            &:hover{
+                background: rgba(153, 0, 255,0.8);
+            }
+        }
+     }
+}
